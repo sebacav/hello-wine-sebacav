@@ -1,0 +1,16 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  email: mail1
+  nombre: MyString
+  password_digest: MyString
+
+two:
+  email: mail12
+  nombre: MyString
+  password_digest: MyString
+
+three:
+  email: noreference@mail
+  nombre: nereference
+  password_digest: MyString
