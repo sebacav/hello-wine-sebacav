@@ -18,8 +18,8 @@ default: &default
   adapter: mysql2
   encoding: utf8
   host: 104.155.162.92
-  username: rails_test
-  password: asvJFLktUTv4cAh9
+  username: <%= ENV.fetch("PROD_USERNAME") %>
+  password: <%= ENV.fetch("PROD_PASSWORD") %>
   # For details on connection pooling, see Rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
