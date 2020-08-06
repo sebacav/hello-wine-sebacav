@@ -43,8 +43,8 @@ COPY . ./
 # Seteamos algunas variables de entorno de base de datos, dejamos la de produccion, seteadas con un vacio
 # esta manera no nos molestara rails al realizar el test, las de produccion deben ser seteadas externamentes
 # dependiendo del ambiente de integracion, puede ser por el manejar de git o bien desde la nube
-ENV TEST_USERNAME=rails_test
-ENV TEST_PASSWORD=asvJFLktUTv4cAh9
+ENV TEST_USERNAME=xxxxx
+ENV TEST_PASSWORD=xxxxx
 ENV PROD_USERNAME=xxxxx
 ENV PROD_PASSWORD=xxxxx
 # Corremos los test, para asegurarnos de que todo funciona bien antes de pasar a produccion
